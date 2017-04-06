@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-prevent-clickthrough",
+        "scope": null,
+        "escapedName": "react-prevent-clickthrough",
+        "name": "react-prevent-clickthrough",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\rober\\OneDrive\\projects\\robftw"
+    ]
+  ],
+  "_from": "react-prevent-clickthrough@latest",
+  "_id": "react-prevent-clickthrough@0.0.1",
+  "_inCache": true,
+  "_location": "/react-prevent-clickthrough",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-prevent-clickthrough-0.0.1.tgz_1490218947603_0.525896530598402"
+  },
+  "_npmUser": {
+    "name": "robftw",
+    "email": "robert.concepcion.iii@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-prevent-clickthrough",
+    "scope": null,
+    "escapedName": "react-prevent-clickthrough",
+    "name": "react-prevent-clickthrough",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-prevent-clickthrough/-/react-prevent-clickthrough-0.0.1.tgz",
+  "_shasum": "c9dfcf897f4e359656642f9e941098477d6df705",
+  "_shrinkwrap": null,
+  "_spec": "react-prevent-clickthrough",
+  "_where": "C:\\Users\\rober\\OneDrive\\projects\\robftw",
+  "author": {
+    "name": "Robert Concepcion III"
+  },
+  "dependencies": {},
+  "description": "Prevents an event from propagating/bubbling through React's Virtual DOM during onClick. Also allows for conveniently passing a behavior while preventing clickthrough for less boilerplate/alternate ways to pass behavior in the callback.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "c9dfcf897f4e359656642f9e941098477d6df705",
+    "tarball": "https://registry.npmjs.org/react-prevent-clickthrough/-/react-prevent-clickthrough-0.0.1.tgz"
+  },
+  "keywords": [
+    "React",
+    "UI",
+    "Clickthrough",
+    "prevent-clickthroguh",
+    "onClick",
+    "DOM",
+    "event-propagation",
+    "clickHandler"
+  ],
+  "license": "ISC",
+  "main": "preventClickthrough.js",
+  "maintainers": [
+    {
+      "name": "robftw",
+      "email": "robert.concepcion.iii@gmail.com"
+    }
+  ],
+  "name": "react-prevent-clickthrough",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}
