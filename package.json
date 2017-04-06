@@ -34,5 +34,5 @@
   },
   "bugs" :"https://github.com/rob2d/react-prevent-clickthrough/issues",
   "name": "react-prevent-clickthrough",
-  "version": "0.0.2"
+  "version": "0.0.3"
 }

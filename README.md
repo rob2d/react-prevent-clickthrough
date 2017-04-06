@@ -29,10 +29,14 @@ var innerContainerEvent = function(e)
     console.log('inner container was clicked; outer should not run!');
 };
 
+// note: innerContainerEvent could also be written:
+// preventClickthrough(e, otherCallbackFn);
 
 var SampleComponent = (props, context)=>
 (
-    <div onClick={outerContainerEvent} style={{ border : '1px solid #000000', padding: '8px' }}>
+    <div onClick={outerContainerEvent} 
+        style={{ border : '1px solid #000000', padding: '8px' }}
+    >
         outer container
         <div onClick={innerContainerEvent}
              style={{ backgroundColor : '#FFFFFF' }}
